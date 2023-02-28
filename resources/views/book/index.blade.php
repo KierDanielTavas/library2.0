@@ -13,7 +13,7 @@
     <div class="container-fluid">
 
     <h2> <center> BOOK RECORDS </center> </h2>
-    <table class="table table-striped table-dark">
+ 
 
 <table class="table">
   <thead class="table table-striped table-dark">
@@ -36,6 +36,8 @@
       <td>{{$book->rating}}</td>
       <td>{{$book->isbn}}</td>
       <td>{{$book->publishDate}}</td>
+      <td> <button type="button" class="btn btn-primary">Edit</button></td>
+      <td> <button type="button" class="btn btn-danger">Delete</button></td>
     </tr>
     @endforeach
   </tbody>
